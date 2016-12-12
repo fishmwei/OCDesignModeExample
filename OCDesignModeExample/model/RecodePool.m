@@ -51,6 +51,8 @@
 
 - (RecordItem *)getRedoState {
     RecordItem *redoState = [self.redoArray lastObject];
+    [self.redoArray removeObject:redoState];
+    
     RecordItem *undoState = [[RecordItem alloc] init];
     undoState.index = redoState.index;
     undoState.selected = !redoState.selected;

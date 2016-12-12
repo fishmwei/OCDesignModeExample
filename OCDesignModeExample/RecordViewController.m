@@ -7,11 +7,11 @@
 //
 
 #import "RecordViewController.h"
+#import "RecodePool.h"
 
 @interface RecordViewController ()
-@property (nonatomic, retain) NSMutableArray *undoArray;
-@property (nonatomic, retain) NSMutableArray *redoArray;
 @property (nonatomic, retain) RecordItem *currentItem;
+@property (nonatomic, retain) RecodePool *recordPool;
 
 @property (nonatomic, retain) UIButton *undoBtn;
 @property (nonatomic, retain) UIButton *redoBtn;
@@ -29,9 +29,9 @@
 }
 
 - (void)setupData {
-    self.undoArray = [NSMutableArray array];
-    self.redoArray = [NSMutableArray array];
     self.selectViews = [NSMutableArray array];
+    
+    self.recordPool = [[RecodePool alloc] init];
 }
 
 - (void)setupUI {
@@ -108,44 +108,40 @@
 }
 
 - (void)undoAction {
-    RecordItem *item = [self.undoArray lastObject];
-    UIButton *btn =  self.selectViews[item.index - 1];
-    btn.selected = item.selected;
-    
-    [self.undoArray removeObject:item];
-    [self.redoArray addObject:item];
+    RecordItem *item = [self.recordPool getUndoState];
+    [self restoreState:item];
     [self updateBtnState];
 }
 
 - (void)redoAction {
-    RecordItem *item = [self.redoArray lastObject];
-    UIButton *btn =  self.selectViews[item.index - 1];
-    btn.selected = !item.selected;
-    
-    [self.redoArray removeObject:item];
-    [self.undoArray addObject:item];
+    RecordItem *item = [self.recordPool getRedoState];
+    [self restoreState:item];
     [self updateBtnState];
 }
 
-- (void)btnPressed:(id)sender {
-    [self.redoArray removeAllObjects];
-    
-    UIButton *btn = (UIButton *)sender;
-    
+- (RecordItem *)createItem:(UIButton *)btn {
     RecordItem *item = [[RecordItem alloc] init];
     item.index = btn.tag;
     item.selected = btn.selected;
-    [self.undoArray addObject:item];
+    
+    return item;
+}
+
+- (void)restoreState:(RecordItem *)item {
+    UIButton *btn =  self.selectViews[item.index - 1];
+    btn.selected = item.selected;
+}
+
+- (void)btnPressed:(id)sender {
+    UIButton *btn = (UIButton *)sender;
+    [self.recordPool setState:[self createItem:btn]];
     btn.selected = !btn.selected;
     
     [self updateBtnState];
 }
 
 - (void)updateBtnState {
- 
-    self.undoBtn.enabled = self.undoArray.count > 0;
- 
-    
-    self.redoBtn.enabled = self.redoArray.count > 0;
+    self.undoBtn.enabled = [self.recordPool canUndo];
+    self.redoBtn.enabled = [self.recordPool canRedo];
 }
 @end
