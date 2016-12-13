@@ -19,8 +19,7 @@
     
     self.tableView.tableFooterView = [[UIView alloc] init];
     self.refreshControl = [[UIRefreshControl alloc] init];
-    self.showData = [NSMutableArray array];
-    
+ 
     [self.refreshControl addTarget:self action:@selector(refresh) forControlEvents:UIControlEventValueChanged];
 }
 
@@ -58,7 +57,17 @@
     });
 }
 
+- (NSMutableArray *)showData {
+    NSArray *dataSource = @[];
+    if ([self dataSource]) {
+        dataSource = [self dataSource];
+    }
+    
+    return [NSMutableArray arrayWithArray:dataSource];
+}
 
-
+- (NSArray *)dataSource {
+    return @[];
+}
 
 @end

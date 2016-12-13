@@ -21,6 +21,7 @@
 		5105E9031DFEEBDD0020E107 /* RecordItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105E9021DFEEBDD0020E107 /* RecordItem.m */; };
 		5105E9051DFEF0D30020E107 /* btnSelectedImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5105E9041DFEF0D30020E107 /* btnSelectedImg.png */; };
 		5105E9081DFEF47A0020E107 /* RecodePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105E9071DFEF47A0020E107 /* RecodePool.m */; };
+		C1E4EEE71DFF8BEB004B4E89 /* TempletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E4EEE61DFF8BEB004B4E89 /* TempletViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		5105E9041DFEF0D30020E107 /* btnSelectedImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnSelectedImg.png; sourceTree = "<group>"; };
 		5105E9061DFEF47A0020E107 /* RecodePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecodePool.h; sourceTree = "<group>"; };
 		5105E9071DFEF47A0020E107 /* RecodePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecodePool.m; sourceTree = "<group>"; };
+		C1E4EEE51DFF8BEB004B4E89 /* TempletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempletViewController.h; sourceTree = "<group>"; };
+		C1E4EEE61DFF8BEB004B4E89 /* TempletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempletViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				5105E8F91DFEDFF60020E107 /* Base */,
 				5105E8F31DFEDEB10020E107 /* MainListViewController.h */,
 				5105E8F41DFEDEB10020E107 /* MainListViewController.m */,
+				C1E4EEE51DFF8BEB004B4E89 /* TempletViewController.h */,
+				C1E4EEE61DFF8BEB004B4E89 /* TempletViewController.m */,
 				5105E8FD1DFEEB0A0020E107 /* RecordViewController.h */,
 				5105E8FE1DFEEB0A0020E107 /* RecordViewController.m */,
 				5105E8C31DFEDB4E0020E107 /* AppDelegate.h */,
@@ -322,6 +327,7 @@
 				5105E8FF1DFEEB0A0020E107 /* RecordViewController.m in Sources */,
 				5105E9031DFEEBDD0020E107 /* RecordItem.m in Sources */,
 				5105E8C21DFEDB4E0020E107 /* main.m in Sources */,
+				C1E4EEE71DFF8BEB004B4E89 /* TempletViewController.m in Sources */,
 				5105E8F51DFEDEB10020E107 /* MainListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

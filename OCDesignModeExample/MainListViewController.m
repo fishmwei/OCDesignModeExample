@@ -8,13 +8,12 @@
 
 #import "MainListViewController.h"
 #import "RecordViewController.h"
+#import "TempletViewController.h"
 
 @implementation MainListViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
-     
-    [self.showData addObject:@"模板模式"];
-    [self.showData addObject:@"备忘录模式"];
+    
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -28,11 +27,17 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    if (indexPath.row == 1) {
+    if (indexPath.row == 0) {
+        TempletViewController *vc = [[TempletViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if (indexPath.row == 1) {
         RecordViewController *vc = [[RecordViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }
 
+- (NSArray *)dataSource {
+    return @[@"模板模式", @"备忘录模式"];
+}
 
 @end

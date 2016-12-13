@@ -14,4 +14,7 @@
 - (void)beginRefresh;
 - (void)endRefresh;
 
+//子类实现这个方法
+- (NSArray *)dataSource;
+
 @end
