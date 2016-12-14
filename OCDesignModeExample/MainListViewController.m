@@ -9,11 +9,16 @@
 #import "MainListViewController.h"
 #import "RecordViewController.h"
 #import "TempletViewController.h"
+#import "MediaViewController.h"
+
+@interface MainListViewController ()
+@property (nonatomic, retain) NSArray *controllerClasses;
+@end
 
 @implementation MainListViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+//    self.controllerClasses = @[@"TempletViewController", @"RecordViewController", @"MediaViewController"];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -27,17 +32,19 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    if (indexPath.row == 0) {
-        TempletViewController *vc = [[TempletViewController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
-    } else if (indexPath.row == 1) {
-        RecordViewController *vc = [[RecordViewController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
+    if (self.controllerClasses.count > indexPath.row) {
+        NSString *controllerClass = [self.controllerClasses objectAtIndex:indexPath.row];
+        Class t = NSClassFromString(controllerClass);
+        if (t) {
+            UIViewController *vc = [[t alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
     }
 }
 
 - (NSArray *)dataSource {
-    return @[@"模板模式", @"备忘录模式"];
+    self.controllerClasses = @[@"TempletViewController", @"RecordViewController", @"MediaViewController"];
+    return @[@"模板模式", @"备忘录模式", @"中介模式"];
 }
 
 @end

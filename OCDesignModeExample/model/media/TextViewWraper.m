@@ -36,7 +36,6 @@
 - (void)initPrivate {
     self.delegate = self;
     
-    
 }
 
 #pragma mark - UITextViewDelegate

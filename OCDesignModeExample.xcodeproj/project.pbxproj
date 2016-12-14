@@ -24,6 +24,7 @@
 		C14956421E00F87B00760ABC /* TextViewWraper.m in Sources */ = {isa = PBXBuildFile; fileRef = C14956411E00F87B00760ABC /* TextViewWraper.m */; settings = {ASSET_TAGS = (); }; };
 		C14956451E00F89400760ABC /* LabelWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C14956441E00F89400760ABC /* LabelWrapper.m */; settings = {ASSET_TAGS = (); }; };
 		C14956491E01175800760ABC /* MediaCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C14956481E01175800760ABC /* MediaCenter.m */; settings = {ASSET_TAGS = (); }; };
+		C1CA072C1E016F5400C2627F /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CA072B1E016F5400C2627F /* MediaViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C1E4EEE71DFF8BEB004B4E89 /* TempletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E4EEE61DFF8BEB004B4E89 /* TempletViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,8 @@
 		C14956461E00F8E700760ABC /* MediaCollegeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCollegeProtocol.h; sourceTree = "<group>"; };
 		C14956471E01175800760ABC /* MediaCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCenter.h; sourceTree = "<group>"; };
 		C14956481E01175800760ABC /* MediaCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCenter.m; sourceTree = "<group>"; };
+		C1CA072A1E016F5400C2627F /* MediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaViewController.h; sourceTree = "<group>"; };
+		C1CA072B1E016F5400C2627F /* MediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaViewController.m; sourceTree = "<group>"; };
 		C1E4EEE51DFF8BEB004B4E89 /* TempletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempletViewController.h; sourceTree = "<group>"; };
 		C1E4EEE61DFF8BEB004B4E89 /* TempletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempletViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +143,8 @@
 				C1E4EEE61DFF8BEB004B4E89 /* TempletViewController.m */,
 				5105E8FD1DFEEB0A0020E107 /* RecordViewController.h */,
 				5105E8FE1DFEEB0A0020E107 /* RecordViewController.m */,
+				C1CA072A1E016F5400C2627F /* MediaViewController.h */,
+				C1CA072B1E016F5400C2627F /* MediaViewController.m */,
 				5105E8C31DFEDB4E0020E107 /* AppDelegate.h */,
 				5105E8C41DFEDB4E0020E107 /* AppDelegate.m */,
 				5105E8C61DFEDB4E0020E107 /* ViewController.h */,
@@ -362,6 +367,7 @@
 				5105E8FF1DFEEB0A0020E107 /* RecordViewController.m in Sources */,
 				5105E8C21DFEDB4E0020E107 /* main.m in Sources */,
 				C149563E1E00F84A00760ABC /* RecordItem.m in Sources */,
+				C1CA072C1E016F5400C2627F /* MediaViewController.m in Sources */,
 				C1E4EEE71DFF8BEB004B4E89 /* TempletViewController.m in Sources */,
 				C14956421E00F87B00760ABC /* TextViewWraper.m in Sources */,
 				5105E8F51DFEDEB10020E107 /* MainListViewController.m in Sources */,
