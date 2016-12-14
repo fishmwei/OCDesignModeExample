@@ -18,9 +18,12 @@
 		5105E8F51DFEDEB10020E107 /* MainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105E8F41DFEDEB10020E107 /* MainListViewController.m */; };
 		5105E8FC1DFEE00F0020E107 /* BaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105E8FB1DFEE00F0020E107 /* BaseListViewController.m */; };
 		5105E8FF1DFEEB0A0020E107 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105E8FE1DFEEB0A0020E107 /* RecordViewController.m */; };
-		5105E9031DFEEBDD0020E107 /* RecordItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105E9021DFEEBDD0020E107 /* RecordItem.m */; };
 		5105E9051DFEF0D30020E107 /* btnSelectedImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5105E9041DFEF0D30020E107 /* btnSelectedImg.png */; };
-		5105E9081DFEF47A0020E107 /* RecodePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105E9071DFEF47A0020E107 /* RecodePool.m */; };
+		C149563D1E00F84A00760ABC /* RecodePool.m in Sources */ = {isa = PBXBuildFile; fileRef = C149563A1E00F84A00760ABC /* RecodePool.m */; settings = {ASSET_TAGS = (); }; };
+		C149563E1E00F84A00760ABC /* RecordItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C149563C1E00F84A00760ABC /* RecordItem.m */; settings = {ASSET_TAGS = (); }; };
+		C14956421E00F87B00760ABC /* TextViewWraper.m in Sources */ = {isa = PBXBuildFile; fileRef = C14956411E00F87B00760ABC /* TextViewWraper.m */; settings = {ASSET_TAGS = (); }; };
+		C14956451E00F89400760ABC /* LabelWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C14956441E00F89400760ABC /* LabelWrapper.m */; settings = {ASSET_TAGS = (); }; };
+		C14956491E01175800760ABC /* MediaCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C14956481E01175800760ABC /* MediaCenter.m */; settings = {ASSET_TAGS = (); }; };
 		C1E4EEE71DFF8BEB004B4E89 /* TempletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E4EEE61DFF8BEB004B4E89 /* TempletViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -64,11 +67,18 @@
 		5105E8FB1DFEE00F0020E107 /* BaseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseListViewController.m; sourceTree = "<group>"; };
 		5105E8FD1DFEEB0A0020E107 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
 		5105E8FE1DFEEB0A0020E107 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
-		5105E9011DFEEBDD0020E107 /* RecordItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordItem.h; sourceTree = "<group>"; };
-		5105E9021DFEEBDD0020E107 /* RecordItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordItem.m; sourceTree = "<group>"; };
 		5105E9041DFEF0D30020E107 /* btnSelectedImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnSelectedImg.png; sourceTree = "<group>"; };
-		5105E9061DFEF47A0020E107 /* RecodePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecodePool.h; sourceTree = "<group>"; };
-		5105E9071DFEF47A0020E107 /* RecodePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecodePool.m; sourceTree = "<group>"; };
+		C14956391E00F84A00760ABC /* RecodePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecodePool.h; sourceTree = "<group>"; };
+		C149563A1E00F84A00760ABC /* RecodePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecodePool.m; sourceTree = "<group>"; };
+		C149563B1E00F84A00760ABC /* RecordItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordItem.h; sourceTree = "<group>"; };
+		C149563C1E00F84A00760ABC /* RecordItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordItem.m; sourceTree = "<group>"; };
+		C14956401E00F87B00760ABC /* TextViewWraper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewWraper.h; sourceTree = "<group>"; };
+		C14956411E00F87B00760ABC /* TextViewWraper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewWraper.m; sourceTree = "<group>"; };
+		C14956431E00F89400760ABC /* LabelWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelWrapper.h; sourceTree = "<group>"; };
+		C14956441E00F89400760ABC /* LabelWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelWrapper.m; sourceTree = "<group>"; };
+		C14956461E00F8E700760ABC /* MediaCollegeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCollegeProtocol.h; sourceTree = "<group>"; };
+		C14956471E01175800760ABC /* MediaCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaCenter.h; sourceTree = "<group>"; };
+		C14956481E01175800760ABC /* MediaCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaCenter.m; sourceTree = "<group>"; };
 		C1E4EEE51DFF8BEB004B4E89 /* TempletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempletViewController.h; sourceTree = "<group>"; };
 		C1E4EEE61DFF8BEB004B4E89 /* TempletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempletViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -181,12 +191,35 @@
 		5105E9001DFEEBC30020E107 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				5105E9011DFEEBDD0020E107 /* RecordItem.h */,
-				5105E9021DFEEBDD0020E107 /* RecordItem.m */,
-				5105E9061DFEF47A0020E107 /* RecodePool.h */,
-				5105E9071DFEF47A0020E107 /* RecodePool.m */,
+				C149563F1E00F85B00760ABC /* media */,
+				C14956381E00F84A00760ABC /* reocord */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		C14956381E00F84A00760ABC /* reocord */ = {
+			isa = PBXGroup;
+			children = (
+				C14956391E00F84A00760ABC /* RecodePool.h */,
+				C149563A1E00F84A00760ABC /* RecodePool.m */,
+				C149563B1E00F84A00760ABC /* RecordItem.h */,
+				C149563C1E00F84A00760ABC /* RecordItem.m */,
+			);
+			path = reocord;
+			sourceTree = "<group>";
+		};
+		C149563F1E00F85B00760ABC /* media */ = {
+			isa = PBXGroup;
+			children = (
+				C14956401E00F87B00760ABC /* TextViewWraper.h */,
+				C14956411E00F87B00760ABC /* TextViewWraper.m */,
+				C14956431E00F89400760ABC /* LabelWrapper.h */,
+				C14956441E00F89400760ABC /* LabelWrapper.m */,
+				C14956461E00F8E700760ABC /* MediaCollegeProtocol.h */,
+				C14956471E01175800760ABC /* MediaCenter.h */,
+				C14956481E01175800760ABC /* MediaCenter.m */,
+			);
+			path = media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,11 +356,14 @@
 				5105E8C81DFEDB4E0020E107 /* ViewController.m in Sources */,
 				5105E8FC1DFEE00F0020E107 /* BaseListViewController.m in Sources */,
 				5105E8C51DFEDB4E0020E107 /* AppDelegate.m in Sources */,
-				5105E9081DFEF47A0020E107 /* RecodePool.m in Sources */,
+				C149563D1E00F84A00760ABC /* RecodePool.m in Sources */,
+				C14956451E00F89400760ABC /* LabelWrapper.m in Sources */,
+				C14956491E01175800760ABC /* MediaCenter.m in Sources */,
 				5105E8FF1DFEEB0A0020E107 /* RecordViewController.m in Sources */,
-				5105E9031DFEEBDD0020E107 /* RecordItem.m in Sources */,
 				5105E8C21DFEDB4E0020E107 /* main.m in Sources */,
+				C149563E1E00F84A00760ABC /* RecordItem.m in Sources */,
 				C1E4EEE71DFF8BEB004B4E89 /* TempletViewController.m in Sources */,
+				C14956421E00F87B00760ABC /* TextViewWraper.m in Sources */,
 				5105E8F51DFEDEB10020E107 /* MainListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,6 +508,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OCDesignModeExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mw.OCDesignModeExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,6 +520,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OCDesignModeExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mw.OCDesignModeExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
