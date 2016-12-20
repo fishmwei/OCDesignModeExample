@@ -19,12 +19,20 @@
 		5105E8FC1DFEE00F0020E107 /* BaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105E8FB1DFEE00F0020E107 /* BaseListViewController.m */; };
 		5105E8FF1DFEEB0A0020E107 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105E8FE1DFEEB0A0020E107 /* RecordViewController.m */; };
 		5105E9051DFEF0D30020E107 /* btnSelectedImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5105E9041DFEF0D30020E107 /* btnSelectedImg.png */; };
-		C149563D1E00F84A00760ABC /* RecodePool.m in Sources */ = {isa = PBXBuildFile; fileRef = C149563A1E00F84A00760ABC /* RecodePool.m */; settings = {ASSET_TAGS = (); }; };
-		C149563E1E00F84A00760ABC /* RecordItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C149563C1E00F84A00760ABC /* RecordItem.m */; settings = {ASSET_TAGS = (); }; };
-		C14956421E00F87B00760ABC /* TextViewWraper.m in Sources */ = {isa = PBXBuildFile; fileRef = C14956411E00F87B00760ABC /* TextViewWraper.m */; settings = {ASSET_TAGS = (); }; };
-		C14956451E00F89400760ABC /* LabelWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C14956441E00F89400760ABC /* LabelWrapper.m */; settings = {ASSET_TAGS = (); }; };
-		C14956491E01175800760ABC /* MediaCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C14956481E01175800760ABC /* MediaCenter.m */; settings = {ASSET_TAGS = (); }; };
-		C1CA072C1E016F5400C2627F /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CA072B1E016F5400C2627F /* MediaViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C11EB5591E08C61D00314BBA /* ElementPoolArray.m in Sources */ = {isa = PBXBuildFile; fileRef = C11EB5581E08C61D00314BBA /* ElementPoolArray.m */; };
+		C11EB55C1E08C63800314BBA /* BaseElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C11EB55B1E08C63800314BBA /* BaseElement.m */; };
+		C11EB55F1E08C64D00314BBA /* BaseVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = C11EB55E1E08C64D00314BBA /* BaseVisitor.m */; };
+		C11EB5621E08C7B700314BBA /* StringElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C11EB5611E08C7B700314BBA /* StringElement.m */; };
+		C11EB5651E08C80800314BBA /* NumberElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C11EB5641E08C80800314BBA /* NumberElement.m */; };
+		C11EB5681E08C84800314BBA /* VisitorA.m in Sources */ = {isa = PBXBuildFile; fileRef = C11EB5671E08C84800314BBA /* VisitorA.m */; };
+		C11EB56B1E08C89800314BBA /* VisitorB.m in Sources */ = {isa = PBXBuildFile; fileRef = C11EB56A1E08C89800314BBA /* VisitorB.m */; };
+		C11EB56E1E08C8B900314BBA /* VisitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C11EB56D1E08C8B900314BBA /* VisitorViewController.m */; };
+		C149563D1E00F84A00760ABC /* RecodePool.m in Sources */ = {isa = PBXBuildFile; fileRef = C149563A1E00F84A00760ABC /* RecodePool.m */; };
+		C149563E1E00F84A00760ABC /* RecordItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C149563C1E00F84A00760ABC /* RecordItem.m */; };
+		C14956421E00F87B00760ABC /* TextViewWraper.m in Sources */ = {isa = PBXBuildFile; fileRef = C14956411E00F87B00760ABC /* TextViewWraper.m */; };
+		C14956451E00F89400760ABC /* LabelWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C14956441E00F89400760ABC /* LabelWrapper.m */; };
+		C14956491E01175800760ABC /* MediaCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C14956481E01175800760ABC /* MediaCenter.m */; };
+		C1CA072C1E016F5400C2627F /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CA072B1E016F5400C2627F /* MediaViewController.m */; };
 		C1E4EEE71DFF8BEB004B4E89 /* TempletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E4EEE61DFF8BEB004B4E89 /* TempletViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +77,22 @@
 		5105E8FD1DFEEB0A0020E107 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
 		5105E8FE1DFEEB0A0020E107 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
 		5105E9041DFEF0D30020E107 /* btnSelectedImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnSelectedImg.png; sourceTree = "<group>"; };
+		C11EB5571E08C61D00314BBA /* ElementPoolArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementPoolArray.h; sourceTree = "<group>"; };
+		C11EB5581E08C61D00314BBA /* ElementPoolArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementPoolArray.m; sourceTree = "<group>"; };
+		C11EB55A1E08C63800314BBA /* BaseElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseElement.h; sourceTree = "<group>"; };
+		C11EB55B1E08C63800314BBA /* BaseElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseElement.m; sourceTree = "<group>"; };
+		C11EB55D1E08C64D00314BBA /* BaseVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVisitor.h; sourceTree = "<group>"; };
+		C11EB55E1E08C64D00314BBA /* BaseVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVisitor.m; sourceTree = "<group>"; };
+		C11EB5601E08C7B700314BBA /* StringElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringElement.h; sourceTree = "<group>"; };
+		C11EB5611E08C7B700314BBA /* StringElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringElement.m; sourceTree = "<group>"; };
+		C11EB5631E08C80800314BBA /* NumberElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberElement.h; sourceTree = "<group>"; };
+		C11EB5641E08C80800314BBA /* NumberElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberElement.m; sourceTree = "<group>"; };
+		C11EB5661E08C84800314BBA /* VisitorA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitorA.h; sourceTree = "<group>"; };
+		C11EB5671E08C84800314BBA /* VisitorA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitorA.m; sourceTree = "<group>"; };
+		C11EB5691E08C89800314BBA /* VisitorB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitorB.h; sourceTree = "<group>"; };
+		C11EB56A1E08C89800314BBA /* VisitorB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitorB.m; sourceTree = "<group>"; };
+		C11EB56C1E08C8B900314BBA /* VisitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitorViewController.h; sourceTree = "<group>"; };
+		C11EB56D1E08C8B900314BBA /* VisitorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitorViewController.m; sourceTree = "<group>"; };
 		C14956391E00F84A00760ABC /* RecodePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecodePool.h; sourceTree = "<group>"; };
 		C149563A1E00F84A00760ABC /* RecodePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecodePool.m; sourceTree = "<group>"; };
 		C149563B1E00F84A00760ABC /* RecordItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordItem.h; sourceTree = "<group>"; };
@@ -139,6 +163,8 @@
 				5105E8F91DFEDFF60020E107 /* Base */,
 				5105E8F31DFEDEB10020E107 /* MainListViewController.h */,
 				5105E8F41DFEDEB10020E107 /* MainListViewController.m */,
+				C11EB56C1E08C8B900314BBA /* VisitorViewController.h */,
+				C11EB56D1E08C8B900314BBA /* VisitorViewController.m */,
 				C1E4EEE51DFF8BEB004B4E89 /* TempletViewController.h */,
 				C1E4EEE61DFF8BEB004B4E89 /* TempletViewController.m */,
 				5105E8FD1DFEEB0A0020E107 /* RecordViewController.h */,
@@ -196,10 +222,32 @@
 		5105E9001DFEEBC30020E107 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				C11EB5561E08C5D800314BBA /* visitor */,
 				C149563F1E00F85B00760ABC /* media */,
 				C14956381E00F84A00760ABC /* reocord */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		C11EB5561E08C5D800314BBA /* visitor */ = {
+			isa = PBXGroup;
+			children = (
+				C11EB5571E08C61D00314BBA /* ElementPoolArray.h */,
+				C11EB5581E08C61D00314BBA /* ElementPoolArray.m */,
+				C11EB55A1E08C63800314BBA /* BaseElement.h */,
+				C11EB55B1E08C63800314BBA /* BaseElement.m */,
+				C11EB55D1E08C64D00314BBA /* BaseVisitor.h */,
+				C11EB55E1E08C64D00314BBA /* BaseVisitor.m */,
+				C11EB5601E08C7B700314BBA /* StringElement.h */,
+				C11EB5611E08C7B700314BBA /* StringElement.m */,
+				C11EB5631E08C80800314BBA /* NumberElement.h */,
+				C11EB5641E08C80800314BBA /* NumberElement.m */,
+				C11EB5661E08C84800314BBA /* VisitorA.h */,
+				C11EB5671E08C84800314BBA /* VisitorA.m */,
+				C11EB5691E08C89800314BBA /* VisitorB.h */,
+				C11EB56A1E08C89800314BBA /* VisitorB.m */,
+			);
+			path = visitor;
 			sourceTree = "<group>";
 		};
 		C14956381E00F84A00760ABC /* reocord */ = {
@@ -359,13 +407,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				5105E8C81DFEDB4E0020E107 /* ViewController.m in Sources */,
+				C11EB5651E08C80800314BBA /* NumberElement.m in Sources */,
 				5105E8FC1DFEE00F0020E107 /* BaseListViewController.m in Sources */,
+				C11EB5681E08C84800314BBA /* VisitorA.m in Sources */,
 				5105E8C51DFEDB4E0020E107 /* AppDelegate.m in Sources */,
+				C11EB55F1E08C64D00314BBA /* BaseVisitor.m in Sources */,
 				C149563D1E00F84A00760ABC /* RecodePool.m in Sources */,
+				C11EB56E1E08C8B900314BBA /* VisitorViewController.m in Sources */,
 				C14956451E00F89400760ABC /* LabelWrapper.m in Sources */,
+				C11EB5621E08C7B700314BBA /* StringElement.m in Sources */,
 				C14956491E01175800760ABC /* MediaCenter.m in Sources */,
 				5105E8FF1DFEEB0A0020E107 /* RecordViewController.m in Sources */,
+				C11EB56B1E08C89800314BBA /* VisitorB.m in Sources */,
 				5105E8C21DFEDB4E0020E107 /* main.m in Sources */,
+				C11EB55C1E08C63800314BBA /* BaseElement.m in Sources */,
+				C11EB5591E08C61D00314BBA /* ElementPoolArray.m in Sources */,
 				C149563E1E00F84A00760ABC /* RecordItem.m in Sources */,
 				C1CA072C1E016F5400C2627F /* MediaViewController.m in Sources */,
 				C1E4EEE71DFF8BEB004B4E89 /* TempletViewController.m in Sources */,

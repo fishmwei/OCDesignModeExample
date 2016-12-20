@@ -43,8 +43,8 @@
 }
 
 - (NSArray *)dataSource {
-    self.controllerClasses = @[@"TempletViewController", @"RecordViewController", @"MediaViewController"];
-    return @[@"模板模式", @"备忘录模式", @"中介模式"];
+    self.controllerClasses = @[@"TempletViewController", @"RecordViewController", @"MediaViewController", @"VisitorViewController"];
+    return @[@"模板模式", @"备忘录模式", @"中介模式", @"访问者模式"];
 }
 
 @end
