@@ -19,6 +19,12 @@
 		5105E8FC1DFEE00F0020E107 /* BaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105E8FB1DFEE00F0020E107 /* BaseListViewController.m */; };
 		5105E8FF1DFEEB0A0020E107 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105E8FE1DFEEB0A0020E107 /* RecordViewController.m */; };
 		5105E9051DFEF0D30020E107 /* btnSelectedImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5105E9041DFEF0D30020E107 /* btnSelectedImg.png */; };
+		51D118851E25194C004C0CB6 /* CashSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D118841E25194C004C0CB6 /* CashSuper.m */; };
+		51D118881E2519C8004C0CB6 /* CashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D118871E2519C8004C0CB6 /* CashNormal.m */; };
+		51D1188B1E251A0B004C0CB6 /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D1188A1E251A0B004C0CB6 /* CashRebate.m */; };
+		51D1188E1E251A23004C0CB6 /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D1188D1E251A23004C0CB6 /* CashReturn.m */; };
+		51D118911E251A3B004C0CB6 /* CashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D118901E251A3B004C0CB6 /* CashContext.m */; };
+		51D118971E2521F2004C0CB6 /* StrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D118961E2521F2004C0CB6 /* StrategyViewController.m */; };
 		C11EB5591E08C61D00314BBA /* ElementPoolArray.m in Sources */ = {isa = PBXBuildFile; fileRef = C11EB5581E08C61D00314BBA /* ElementPoolArray.m */; };
 		C11EB55C1E08C63800314BBA /* BaseElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C11EB55B1E08C63800314BBA /* BaseElement.m */; };
 		C11EB55F1E08C64D00314BBA /* BaseVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = C11EB55E1E08C64D00314BBA /* BaseVisitor.m */; };
@@ -77,6 +83,18 @@
 		5105E8FD1DFEEB0A0020E107 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
 		5105E8FE1DFEEB0A0020E107 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
 		5105E9041DFEF0D30020E107 /* btnSelectedImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnSelectedImg.png; sourceTree = "<group>"; };
+		51D118831E25194C004C0CB6 /* CashSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashSuper.h; sourceTree = "<group>"; };
+		51D118841E25194C004C0CB6 /* CashSuper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashSuper.m; sourceTree = "<group>"; };
+		51D118861E2519C8004C0CB6 /* CashNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashNormal.h; sourceTree = "<group>"; };
+		51D118871E2519C8004C0CB6 /* CashNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashNormal.m; sourceTree = "<group>"; };
+		51D118891E251A0B004C0CB6 /* CashRebate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashRebate.h; sourceTree = "<group>"; };
+		51D1188A1E251A0B004C0CB6 /* CashRebate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashRebate.m; sourceTree = "<group>"; };
+		51D1188C1E251A23004C0CB6 /* CashReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashReturn.h; sourceTree = "<group>"; };
+		51D1188D1E251A23004C0CB6 /* CashReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashReturn.m; sourceTree = "<group>"; };
+		51D1188F1E251A3B004C0CB6 /* CashContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashContext.h; sourceTree = "<group>"; };
+		51D118901E251A3B004C0CB6 /* CashContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashContext.m; sourceTree = "<group>"; };
+		51D118951E2521F2004C0CB6 /* StrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StrategyViewController.h; path = ../StrategyViewController.h; sourceTree = "<group>"; };
+		51D118961E2521F2004C0CB6 /* StrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StrategyViewController.m; path = ../StrategyViewController.m; sourceTree = "<group>"; };
 		C11EB5571E08C61D00314BBA /* ElementPoolArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementPoolArray.h; sourceTree = "<group>"; };
 		C11EB5581E08C61D00314BBA /* ElementPoolArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementPoolArray.m; sourceTree = "<group>"; };
 		C11EB55A1E08C63800314BBA /* BaseElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseElement.h; sourceTree = "<group>"; };
@@ -163,6 +181,8 @@
 				5105E8F91DFEDFF60020E107 /* Base */,
 				5105E8F31DFEDEB10020E107 /* MainListViewController.h */,
 				5105E8F41DFEDEB10020E107 /* MainListViewController.m */,
+				51D118951E2521F2004C0CB6 /* StrategyViewController.h */,
+				51D118961E2521F2004C0CB6 /* StrategyViewController.m */,
 				C11EB56C1E08C8B900314BBA /* VisitorViewController.h */,
 				C11EB56D1E08C8B900314BBA /* VisitorViewController.m */,
 				C1E4EEE51DFF8BEB004B4E89 /* TempletViewController.h */,
@@ -222,11 +242,29 @@
 		5105E9001DFEEBC30020E107 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				51D1187F1E2518F6004C0CB6 /* strategy */,
 				C11EB5561E08C5D800314BBA /* visitor */,
 				C149563F1E00F85B00760ABC /* media */,
 				C14956381E00F84A00760ABC /* reocord */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		51D1187F1E2518F6004C0CB6 /* strategy */ = {
+			isa = PBXGroup;
+			children = (
+				51D118831E25194C004C0CB6 /* CashSuper.h */,
+				51D118841E25194C004C0CB6 /* CashSuper.m */,
+				51D118861E2519C8004C0CB6 /* CashNormal.h */,
+				51D118871E2519C8004C0CB6 /* CashNormal.m */,
+				51D118891E251A0B004C0CB6 /* CashRebate.h */,
+				51D1188A1E251A0B004C0CB6 /* CashRebate.m */,
+				51D1188C1E251A23004C0CB6 /* CashReturn.h */,
+				51D1188D1E251A23004C0CB6 /* CashReturn.m */,
+				51D1188F1E251A3B004C0CB6 /* CashContext.h */,
+				51D118901E251A3B004C0CB6 /* CashContext.m */,
+			);
+			path = strategy;
 			sourceTree = "<group>";
 		};
 		C11EB5561E08C5D800314BBA /* visitor */ = {
@@ -407,26 +445,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				5105E8C81DFEDB4E0020E107 /* ViewController.m in Sources */,
+				51D1188B1E251A0B004C0CB6 /* CashRebate.m in Sources */,
 				C11EB5651E08C80800314BBA /* NumberElement.m in Sources */,
 				5105E8FC1DFEE00F0020E107 /* BaseListViewController.m in Sources */,
 				C11EB5681E08C84800314BBA /* VisitorA.m in Sources */,
 				5105E8C51DFEDB4E0020E107 /* AppDelegate.m in Sources */,
 				C11EB55F1E08C64D00314BBA /* BaseVisitor.m in Sources */,
 				C149563D1E00F84A00760ABC /* RecodePool.m in Sources */,
+				51D118911E251A3B004C0CB6 /* CashContext.m in Sources */,
 				C11EB56E1E08C8B900314BBA /* VisitorViewController.m in Sources */,
 				C14956451E00F89400760ABC /* LabelWrapper.m in Sources */,
 				C11EB5621E08C7B700314BBA /* StringElement.m in Sources */,
+				51D118851E25194C004C0CB6 /* CashSuper.m in Sources */,
 				C14956491E01175800760ABC /* MediaCenter.m in Sources */,
 				5105E8FF1DFEEB0A0020E107 /* RecordViewController.m in Sources */,
 				C11EB56B1E08C89800314BBA /* VisitorB.m in Sources */,
+				51D118881E2519C8004C0CB6 /* CashNormal.m in Sources */,
 				5105E8C21DFEDB4E0020E107 /* main.m in Sources */,
 				C11EB55C1E08C63800314BBA /* BaseElement.m in Sources */,
+				51D1188E1E251A23004C0CB6 /* CashReturn.m in Sources */,
 				C11EB5591E08C61D00314BBA /* ElementPoolArray.m in Sources */,
 				C149563E1E00F84A00760ABC /* RecordItem.m in Sources */,
 				C1CA072C1E016F5400C2627F /* MediaViewController.m in Sources */,
 				C1E4EEE71DFF8BEB004B4E89 /* TempletViewController.m in Sources */,
 				C14956421E00F87B00760ABC /* TextViewWraper.m in Sources */,
 				5105E8F51DFEDEB10020E107 /* MainListViewController.m in Sources */,
+				51D118971E2521F2004C0CB6 /* StrategyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
