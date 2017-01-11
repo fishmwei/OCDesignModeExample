@@ -121,7 +121,7 @@
     [self updateBtnState];
 }
 
-- (RecordItem *)createItem:(UIButton *)btn {
+- (RecordItem *)saveItem:(UIButton *)btn {
     RecordItem *item = [[RecordItem alloc] init];
     item.index = btn.tag;
     item.selected = btn.selected;
@@ -136,7 +136,7 @@
 
 - (void)btnPressed:(id)sender {
     UIButton *btn = (UIButton *)sender;
-    [self.recordPool setState:[self createItem:btn]];
+    [self.recordPool setState:[self saveItem:btn]];
     btn.selected = !btn.selected;
     
     [self updateBtnState];

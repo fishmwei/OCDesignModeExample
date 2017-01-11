@@ -19,6 +19,10 @@
 		5105E8FC1DFEE00F0020E107 /* BaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105E8FB1DFEE00F0020E107 /* BaseListViewController.m */; };
 		5105E8FF1DFEEB0A0020E107 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5105E8FE1DFEEB0A0020E107 /* RecordViewController.m */; };
 		5105E9051DFEF0D30020E107 /* btnSelectedImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5105E9041DFEF0D30020E107 /* btnSelectedImg.png */; };
+		511132AB1E2677050084E6E4 /* gamePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 511132AA1E2677050084E6E4 /* gamePlayer.m */; };
+		511132AE1E2677960084E6E4 /* memenTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 511132AD1E2677960084E6E4 /* memenTo.m */; };
+		511132B11E26790E0084E6E4 /* memenToCreateTaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 511132B01E26790E0084E6E4 /* memenToCreateTaker.m */; };
+		511132B41E2679FD0084E6E4 /* process.m in Sources */ = {isa = PBXBuildFile; fileRef = 511132B31E2679FD0084E6E4 /* process.m */; };
 		51D118851E25194C004C0CB6 /* CashSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D118841E25194C004C0CB6 /* CashSuper.m */; };
 		51D118881E2519C8004C0CB6 /* CashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D118871E2519C8004C0CB6 /* CashNormal.m */; };
 		51D1188B1E251A0B004C0CB6 /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D1188A1E251A0B004C0CB6 /* CashRebate.m */; };
@@ -83,6 +87,14 @@
 		5105E8FD1DFEEB0A0020E107 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
 		5105E8FE1DFEEB0A0020E107 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
 		5105E9041DFEF0D30020E107 /* btnSelectedImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnSelectedImg.png; sourceTree = "<group>"; };
+		511132A91E2677050084E6E4 /* gamePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gamePlayer.h; sourceTree = "<group>"; };
+		511132AA1E2677050084E6E4 /* gamePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gamePlayer.m; sourceTree = "<group>"; };
+		511132AC1E2677960084E6E4 /* memenTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memenTo.h; sourceTree = "<group>"; };
+		511132AD1E2677960084E6E4 /* memenTo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memenTo.m; sourceTree = "<group>"; };
+		511132AF1E26790E0084E6E4 /* memenToCreateTaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memenToCreateTaker.h; sourceTree = "<group>"; };
+		511132B01E26790E0084E6E4 /* memenToCreateTaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memenToCreateTaker.m; sourceTree = "<group>"; };
+		511132B21E2679FD0084E6E4 /* process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = process.h; sourceTree = "<group>"; };
+		511132B31E2679FD0084E6E4 /* process.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = process.m; sourceTree = "<group>"; };
 		51D118831E25194C004C0CB6 /* CashSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashSuper.h; sourceTree = "<group>"; };
 		51D118841E25194C004C0CB6 /* CashSuper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashSuper.m; sourceTree = "<group>"; };
 		51D118861E2519C8004C0CB6 /* CashNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashNormal.h; sourceTree = "<group>"; };
@@ -295,6 +307,14 @@
 				C149563A1E00F84A00760ABC /* RecodePool.m */,
 				C149563B1E00F84A00760ABC /* RecordItem.h */,
 				C149563C1E00F84A00760ABC /* RecordItem.m */,
+				511132AC1E2677960084E6E4 /* memenTo.h */,
+				511132AD1E2677960084E6E4 /* memenTo.m */,
+				511132A91E2677050084E6E4 /* gamePlayer.h */,
+				511132AA1E2677050084E6E4 /* gamePlayer.m */,
+				511132B21E2679FD0084E6E4 /* process.h */,
+				511132B31E2679FD0084E6E4 /* process.m */,
+				511132B01E26790E0084E6E4 /* memenToCreateTaker.m */,
+				511132AF1E26790E0084E6E4 /* memenToCreateTaker.h */,
 			);
 			path = reocord;
 			sourceTree = "<group>";
@@ -444,6 +464,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				511132B41E2679FD0084E6E4 /* process.m in Sources */,
 				5105E8C81DFEDB4E0020E107 /* ViewController.m in Sources */,
 				51D1188B1E251A0B004C0CB6 /* CashRebate.m in Sources */,
 				C11EB5651E08C80800314BBA /* NumberElement.m in Sources */,
@@ -466,7 +487,10 @@
 				51D1188E1E251A23004C0CB6 /* CashReturn.m in Sources */,
 				C11EB5591E08C61D00314BBA /* ElementPoolArray.m in Sources */,
 				C149563E1E00F84A00760ABC /* RecordItem.m in Sources */,
+				511132AB1E2677050084E6E4 /* gamePlayer.m in Sources */,
+				511132B11E26790E0084E6E4 /* memenToCreateTaker.m in Sources */,
 				C1CA072C1E016F5400C2627F /* MediaViewController.m in Sources */,
+				511132AE1E2677960084E6E4 /* memenTo.m in Sources */,
 				C1E4EEE71DFF8BEB004B4E89 /* TempletViewController.m in Sources */,
 				C14956421E00F87B00760ABC /* TextViewWraper.m in Sources */,
 				5105E8F51DFEDEB10020E107 /* MainListViewController.m in Sources */,
