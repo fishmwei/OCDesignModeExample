@@ -1,0 +1,15 @@
+PODS:
+  - DOPDropDownMenu-Enhanced (1.0.0)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - DOPDropDownMenu-Enhanced (~> 1.0.0)
+  - Masonry
+
+SPEC CHECKSUMS:
+  DOPDropDownMenu-Enhanced: 9ec473b16351b5b0b2d6ef87e7f666fe5ff54ad5
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: db633da2eadf63a672e63c5aaf1fe4562f8532ef
+
+COCOAPODS: 1.2.0

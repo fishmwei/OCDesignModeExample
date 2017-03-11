@@ -29,6 +29,16 @@
 		51D1188E1E251A23004C0CB6 /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D1188D1E251A23004C0CB6 /* CashReturn.m */; };
 		51D118911E251A3B004C0CB6 /* CashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D118901E251A3B004C0CB6 /* CashContext.m */; };
 		51D118971E2521F2004C0CB6 /* StrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D118961E2521F2004C0CB6 /* StrategyViewController.m */; };
+		51FA32C21E6C0672006E8CFF /* BaseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA32C11E6C0672006E8CFF /* BaseOperation.m */; };
+		51FA32C51E6C06F7006E8CFF /* AddOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA32C41E6C06F7006E8CFF /* AddOperation.m */; };
+		51FA32C81E6C0722006E8CFF /* SubOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA32C71E6C0722006E8CFF /* SubOperation.m */; };
+		51FA32CB1E6C0743006E8CFF /* MulOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA32CA1E6C0743006E8CFF /* MulOperation.m */; };
+		51FA32CE1E6C0753006E8CFF /* DivOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA32CD1E6C0753006E8CFF /* DivOperation.m */; };
+		51FA32D11E6C07C4006E8CFF /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA32D01E6C07C4006E8CFF /* OperationFactory.m */; };
+		51FA32D41E6C09D3006E8CFF /* SimpleFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FA32D31E6C09D3006E8CFF /* SimpleFactoryViewController.m */; };
+		67B4EEF68EF98BB8ADB852C4 /* libPods-OCDesignModeExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21EEF51177C6F43BA99612DD /* libPods-OCDesignModeExampleTests.a */; };
+		871F30012E143442CEA06676 /* libPods-OCDesignModeExampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7396243DF5E752AD80D1F1 /* libPods-OCDesignModeExampleUITests.a */; };
+		A4FED705B1B16D84643EFB02 /* libPods-OCDesignModeExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B26E188B640EC53E7D915DF6 /* libPods-OCDesignModeExample.a */; };
 		C11EB5591E08C61D00314BBA /* ElementPoolArray.m in Sources */ = {isa = PBXBuildFile; fileRef = C11EB5581E08C61D00314BBA /* ElementPoolArray.m */; };
 		C11EB55C1E08C63800314BBA /* BaseElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C11EB55B1E08C63800314BBA /* BaseElement.m */; };
 		C11EB55F1E08C64D00314BBA /* BaseVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = C11EB55E1E08C64D00314BBA /* BaseVisitor.m */; };
@@ -64,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21EEF51177C6F43BA99612DD /* libPods-OCDesignModeExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCDesignModeExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5105E8BD1DFEDB4E0020E107 /* OCDesignModeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDesignModeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5105E8C11DFEDB4E0020E107 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5105E8C31DFEDB4E0020E107 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +118,28 @@
 		51D118901E251A3B004C0CB6 /* CashContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashContext.m; sourceTree = "<group>"; };
 		51D118951E2521F2004C0CB6 /* StrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StrategyViewController.h; path = ../StrategyViewController.h; sourceTree = "<group>"; };
 		51D118961E2521F2004C0CB6 /* StrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StrategyViewController.m; path = ../StrategyViewController.m; sourceTree = "<group>"; };
+		51FA32C01E6C0672006E8CFF /* BaseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseOperation.h; sourceTree = "<group>"; };
+		51FA32C11E6C0672006E8CFF /* BaseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseOperation.m; sourceTree = "<group>"; };
+		51FA32C31E6C06F7006E8CFF /* AddOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddOperation.h; sourceTree = "<group>"; };
+		51FA32C41E6C06F7006E8CFF /* AddOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddOperation.m; sourceTree = "<group>"; };
+		51FA32C61E6C0722006E8CFF /* SubOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubOperation.h; sourceTree = "<group>"; };
+		51FA32C71E6C0722006E8CFF /* SubOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubOperation.m; sourceTree = "<group>"; };
+		51FA32C91E6C0743006E8CFF /* MulOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulOperation.h; sourceTree = "<group>"; };
+		51FA32CA1E6C0743006E8CFF /* MulOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulOperation.m; sourceTree = "<group>"; };
+		51FA32CC1E6C0753006E8CFF /* DivOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivOperation.h; sourceTree = "<group>"; };
+		51FA32CD1E6C0753006E8CFF /* DivOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivOperation.m; sourceTree = "<group>"; };
+		51FA32CF1E6C07C4006E8CFF /* OperationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationFactory.h; sourceTree = "<group>"; };
+		51FA32D01E6C07C4006E8CFF /* OperationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationFactory.m; sourceTree = "<group>"; };
+		51FA32D21E6C09D3006E8CFF /* SimpleFactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFactoryViewController.h; sourceTree = "<group>"; };
+		51FA32D31E6C09D3006E8CFF /* SimpleFactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFactoryViewController.m; sourceTree = "<group>"; };
+		539C26155200ECE6A58154FF /* Pods-OCDesignModeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDesignModeExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCDesignModeExample/Pods-OCDesignModeExample.debug.xcconfig"; sourceTree = "<group>"; };
+		672F062E9F5629B0E5F8A07F /* Pods-OCDesignModeExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDesignModeExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCDesignModeExampleUITests/Pods-OCDesignModeExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		706537E3DCCD704A96EE4F35 /* Pods-OCDesignModeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDesignModeExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCDesignModeExample/Pods-OCDesignModeExample.release.xcconfig"; sourceTree = "<group>"; };
+		925F4F4165ABB82248AFB4C9 /* Pods-OCDesignModeExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDesignModeExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCDesignModeExampleTests/Pods-OCDesignModeExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B7396243DF5E752AD80D1F1 /* libPods-OCDesignModeExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCDesignModeExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2BE04B3D14860F9204563B /* Pods-OCDesignModeExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDesignModeExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCDesignModeExampleUITests/Pods-OCDesignModeExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B168CF72ACAD26C5C41E83C6 /* Pods-OCDesignModeExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDesignModeExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCDesignModeExampleTests/Pods-OCDesignModeExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		B26E188B640EC53E7D915DF6 /* libPods-OCDesignModeExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCDesignModeExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C11EB5571E08C61D00314BBA /* ElementPoolArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementPoolArray.h; sourceTree = "<group>"; };
 		C11EB5581E08C61D00314BBA /* ElementPoolArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementPoolArray.m; sourceTree = "<group>"; };
 		C11EB55A1E08C63800314BBA /* BaseElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseElement.h; sourceTree = "<group>"; };
@@ -145,6 +178,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FED705B1B16D84643EFB02 /* libPods-OCDesignModeExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +186,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67B4EEF68EF98BB8ADB852C4 /* libPods-OCDesignModeExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +194,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				871F30012E143442CEA06676 /* libPods-OCDesignModeExampleUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +208,8 @@
 				5105E8D91DFEDB4F0020E107 /* OCDesignModeExampleTests */,
 				5105E8E41DFEDB4F0020E107 /* OCDesignModeExampleUITests */,
 				5105E8BE1DFEDB4E0020E107 /* Products */,
+				F99EE186A36EFCB2C0F5FA74 /* Pods */,
+				A94B3FEA0C58DEA37F9CC4EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,6 +231,8 @@
 				5105E8F91DFEDFF60020E107 /* Base */,
 				5105E8F31DFEDEB10020E107 /* MainListViewController.h */,
 				5105E8F41DFEDEB10020E107 /* MainListViewController.m */,
+				51FA32D21E6C09D3006E8CFF /* SimpleFactoryViewController.h */,
+				51FA32D31E6C09D3006E8CFF /* SimpleFactoryViewController.m */,
 				51D118951E2521F2004C0CB6 /* StrategyViewController.h */,
 				51D118961E2521F2004C0CB6 /* StrategyViewController.m */,
 				C11EB56C1E08C8B900314BBA /* VisitorViewController.h */,
@@ -254,6 +294,7 @@
 		5105E9001DFEEBC30020E107 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				51FA32BF1E6C0572006E8CFF /* simplefactory */,
 				51D1187F1E2518F6004C0CB6 /* strategy */,
 				C11EB5561E08C5D800314BBA /* visitor */,
 				C149563F1E00F85B00760ABC /* media */,
@@ -277,6 +318,35 @@
 				51D118901E251A3B004C0CB6 /* CashContext.m */,
 			);
 			path = strategy;
+			sourceTree = "<group>";
+		};
+		51FA32BF1E6C0572006E8CFF /* simplefactory */ = {
+			isa = PBXGroup;
+			children = (
+				51FA32C01E6C0672006E8CFF /* BaseOperation.h */,
+				51FA32C11E6C0672006E8CFF /* BaseOperation.m */,
+				51FA32C31E6C06F7006E8CFF /* AddOperation.h */,
+				51FA32C41E6C06F7006E8CFF /* AddOperation.m */,
+				51FA32C61E6C0722006E8CFF /* SubOperation.h */,
+				51FA32C71E6C0722006E8CFF /* SubOperation.m */,
+				51FA32C91E6C0743006E8CFF /* MulOperation.h */,
+				51FA32CA1E6C0743006E8CFF /* MulOperation.m */,
+				51FA32CC1E6C0753006E8CFF /* DivOperation.h */,
+				51FA32CD1E6C0753006E8CFF /* DivOperation.m */,
+				51FA32CF1E6C07C4006E8CFF /* OperationFactory.h */,
+				51FA32D01E6C07C4006E8CFF /* OperationFactory.m */,
+			);
+			path = simplefactory;
+			sourceTree = "<group>";
+		};
+		A94B3FEA0C58DEA37F9CC4EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B26E188B640EC53E7D915DF6 /* libPods-OCDesignModeExample.a */,
+				21EEF51177C6F43BA99612DD /* libPods-OCDesignModeExampleTests.a */,
+				9B7396243DF5E752AD80D1F1 /* libPods-OCDesignModeExampleUITests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C11EB5561E08C5D800314BBA /* visitor */ = {
@@ -333,6 +403,19 @@
 			path = media;
 			sourceTree = "<group>";
 		};
+		F99EE186A36EFCB2C0F5FA74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				539C26155200ECE6A58154FF /* Pods-OCDesignModeExample.debug.xcconfig */,
+				706537E3DCCD704A96EE4F35 /* Pods-OCDesignModeExample.release.xcconfig */,
+				925F4F4165ABB82248AFB4C9 /* Pods-OCDesignModeExampleTests.debug.xcconfig */,
+				B168CF72ACAD26C5C41E83C6 /* Pods-OCDesignModeExampleTests.release.xcconfig */,
+				9E2BE04B3D14860F9204563B /* Pods-OCDesignModeExampleUITests.debug.xcconfig */,
+				672F062E9F5629B0E5F8A07F /* Pods-OCDesignModeExampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -340,9 +423,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5105E8EA1DFEDB4F0020E107 /* Build configuration list for PBXNativeTarget "OCDesignModeExample" */;
 			buildPhases = (
+				7B8D5834D47E90804B2A8293 /* [CP] Check Pods Manifest.lock */,
 				5105E8B91DFEDB4E0020E107 /* Sources */,
 				5105E8BA1DFEDB4E0020E107 /* Frameworks */,
 				5105E8BB1DFEDB4E0020E107 /* Resources */,
+				092362ED388D4238CCEBA726 /* [CP] Embed Pods Frameworks */,
+				7D763F7C680874D0159F2FE8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -357,9 +443,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5105E8ED1DFEDB4F0020E107 /* Build configuration list for PBXNativeTarget "OCDesignModeExampleTests" */;
 			buildPhases = (
+				23A3F6CA03D9F7D3E8198F48 /* [CP] Check Pods Manifest.lock */,
 				5105E8D21DFEDB4F0020E107 /* Sources */,
 				5105E8D31DFEDB4F0020E107 /* Frameworks */,
 				5105E8D41DFEDB4F0020E107 /* Resources */,
+				AC6B724547AAB0D6EEC520ED /* [CP] Embed Pods Frameworks */,
+				5ABC6E51A38BF2DE3A8B1925 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -375,9 +464,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5105E8F01DFEDB4F0020E107 /* Build configuration list for PBXNativeTarget "OCDesignModeExampleUITests" */;
 			buildPhases = (
+				0CE0B77D09740AD8033D3442 /* [CP] Check Pods Manifest.lock */,
 				5105E8DD1DFEDB4F0020E107 /* Sources */,
 				5105E8DE1DFEDB4F0020E107 /* Frameworks */,
 				5105E8DF1DFEDB4F0020E107 /* Resources */,
+				043F5E6151E9A932C37DEFFD /* [CP] Embed Pods Frameworks */,
+				5D836122A8BE6049E48EE649 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -459,15 +551,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		043F5E6151E9A932C37DEFFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCDesignModeExampleUITests/Pods-OCDesignModeExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		092362ED388D4238CCEBA726 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCDesignModeExample/Pods-OCDesignModeExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CE0B77D09740AD8033D3442 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		23A3F6CA03D9F7D3E8198F48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5ABC6E51A38BF2DE3A8B1925 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCDesignModeExampleTests/Pods-OCDesignModeExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D836122A8BE6049E48EE649 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCDesignModeExampleUITests/Pods-OCDesignModeExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B8D5834D47E90804B2A8293 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D763F7C680874D0159F2FE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCDesignModeExample/Pods-OCDesignModeExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC6B724547AAB0D6EEC520ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCDesignModeExampleTests/Pods-OCDesignModeExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5105E8B91DFEDB4E0020E107 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				511132B41E2679FD0084E6E4 /* process.m in Sources */,
+				51FA32D41E6C09D3006E8CFF /* SimpleFactoryViewController.m in Sources */,
 				5105E8C81DFEDB4E0020E107 /* ViewController.m in Sources */,
+				51FA32C81E6C0722006E8CFF /* SubOperation.m in Sources */,
 				51D1188B1E251A0B004C0CB6 /* CashRebate.m in Sources */,
 				C11EB5651E08C80800314BBA /* NumberElement.m in Sources */,
+				51FA32CE1E6C0753006E8CFF /* DivOperation.m in Sources */,
 				5105E8FC1DFEE00F0020E107 /* BaseListViewController.m in Sources */,
 				C11EB5681E08C84800314BBA /* VisitorA.m in Sources */,
 				5105E8C51DFEDB4E0020E107 /* AppDelegate.m in Sources */,
@@ -481,17 +714,21 @@
 				C14956491E01175800760ABC /* MediaCenter.m in Sources */,
 				5105E8FF1DFEEB0A0020E107 /* RecordViewController.m in Sources */,
 				C11EB56B1E08C89800314BBA /* VisitorB.m in Sources */,
+				51FA32C51E6C06F7006E8CFF /* AddOperation.m in Sources */,
 				51D118881E2519C8004C0CB6 /* CashNormal.m in Sources */,
+				51FA32CB1E6C0743006E8CFF /* MulOperation.m in Sources */,
 				5105E8C21DFEDB4E0020E107 /* main.m in Sources */,
 				C11EB55C1E08C63800314BBA /* BaseElement.m in Sources */,
 				51D1188E1E251A23004C0CB6 /* CashReturn.m in Sources */,
 				C11EB5591E08C61D00314BBA /* ElementPoolArray.m in Sources */,
+				51FA32C21E6C0672006E8CFF /* BaseOperation.m in Sources */,
 				C149563E1E00F84A00760ABC /* RecordItem.m in Sources */,
 				511132AB1E2677050084E6E4 /* gamePlayer.m in Sources */,
 				511132B11E26790E0084E6E4 /* memenToCreateTaker.m in Sources */,
 				C1CA072C1E016F5400C2627F /* MediaViewController.m in Sources */,
 				511132AE1E2677960084E6E4 /* memenTo.m in Sources */,
 				C1E4EEE71DFF8BEB004B4E89 /* TempletViewController.m in Sources */,
+				51FA32D11E6C07C4006E8CFF /* OperationFactory.m in Sources */,
 				C14956421E00F87B00760ABC /* TextViewWraper.m in Sources */,
 				5105E8F51DFEDEB10020E107 /* MainListViewController.m in Sources */,
 				51D118971E2521F2004C0CB6 /* StrategyViewController.m in Sources */,
@@ -635,6 +872,7 @@
 		};
 		5105E8EB1DFEDB4F0020E107 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 539C26155200ECE6A58154FF /* Pods-OCDesignModeExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OCDesignModeExample/Info.plist;
@@ -647,6 +885,7 @@
 		};
 		5105E8EC1DFEDB4F0020E107 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 706537E3DCCD704A96EE4F35 /* Pods-OCDesignModeExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OCDesignModeExample/Info.plist;
@@ -659,6 +898,7 @@
 		};
 		5105E8EE1DFEDB4F0020E107 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925F4F4165ABB82248AFB4C9 /* Pods-OCDesignModeExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OCDesignModeExampleTests/Info.plist;
@@ -671,6 +911,7 @@
 		};
 		5105E8EF1DFEDB4F0020E107 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B168CF72ACAD26C5C41E83C6 /* Pods-OCDesignModeExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OCDesignModeExampleTests/Info.plist;
@@ -683,6 +924,7 @@
 		};
 		5105E8F11DFEDB4F0020E107 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2BE04B3D14860F9204563B /* Pods-OCDesignModeExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = OCDesignModeExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -694,6 +936,7 @@
 		};
 		5105E8F21DFEDB4F0020E107 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 672F062E9F5629B0E5F8A07F /* Pods-OCDesignModeExampleUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = OCDesignModeExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
