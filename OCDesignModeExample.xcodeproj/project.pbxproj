@@ -116,8 +116,8 @@
 		51D1188D1E251A23004C0CB6 /* CashReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashReturn.m; sourceTree = "<group>"; };
 		51D1188F1E251A3B004C0CB6 /* CashContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashContext.h; sourceTree = "<group>"; };
 		51D118901E251A3B004C0CB6 /* CashContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashContext.m; sourceTree = "<group>"; };
-		51D118951E2521F2004C0CB6 /* StrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StrategyViewController.h; path = ../StrategyViewController.h; sourceTree = "<group>"; };
-		51D118961E2521F2004C0CB6 /* StrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StrategyViewController.m; path = ../StrategyViewController.m; sourceTree = "<group>"; };
+		51D118951E2521F2004C0CB6 /* StrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrategyViewController.h; sourceTree = "<group>"; };
+		51D118961E2521F2004C0CB6 /* StrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrategyViewController.m; sourceTree = "<group>"; };
 		51FA32C01E6C0672006E8CFF /* BaseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseOperation.h; sourceTree = "<group>"; };
 		51FA32C11E6C0672006E8CFF /* BaseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseOperation.m; sourceTree = "<group>"; };
 		51FA32C31E6C06F7006E8CFF /* AddOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddOperation.h; sourceTree = "<group>"; };
@@ -226,23 +226,16 @@
 		5105E8BF1DFEDB4E0020E107 /* OCDesignModeExample */ = {
 			isa = PBXGroup;
 			children = (
+				C192FF7B206E6FEE00E0554A /* simpleFactory */,
+				C192FF79206E6FC000E0554A /* strategy */,
+				C192FF77206E6F9800E0554A /* visitor */,
+				C192FF75206E6F6400E0554A /* media */,
+				C192FF73206E6F0E00E0554A /* record */,
+				C192FF72206E6EE600E0554A /* template */,
 				5105E9041DFEF0D30020E107 /* btnSelectedImg.png */,
-				5105E9001DFEEBC30020E107 /* model */,
 				5105E8F91DFEDFF60020E107 /* Base */,
 				5105E8F31DFEDEB10020E107 /* MainListViewController.h */,
 				5105E8F41DFEDEB10020E107 /* MainListViewController.m */,
-				51FA32D21E6C09D3006E8CFF /* SimpleFactoryViewController.h */,
-				51FA32D31E6C09D3006E8CFF /* SimpleFactoryViewController.m */,
-				51D118951E2521F2004C0CB6 /* StrategyViewController.h */,
-				51D118961E2521F2004C0CB6 /* StrategyViewController.m */,
-				C11EB56C1E08C8B900314BBA /* VisitorViewController.h */,
-				C11EB56D1E08C8B900314BBA /* VisitorViewController.m */,
-				C1E4EEE51DFF8BEB004B4E89 /* TempletViewController.h */,
-				C1E4EEE61DFF8BEB004B4E89 /* TempletViewController.m */,
-				5105E8FD1DFEEB0A0020E107 /* RecordViewController.h */,
-				5105E8FE1DFEEB0A0020E107 /* RecordViewController.m */,
-				C1CA072A1E016F5400C2627F /* MediaViewController.h */,
-				C1CA072B1E016F5400C2627F /* MediaViewController.m */,
 				5105E8C31DFEDB4E0020E107 /* AppDelegate.h */,
 				5105E8C41DFEDB4E0020E107 /* AppDelegate.m */,
 				5105E8C61DFEDB4E0020E107 /* ViewController.h */,
@@ -291,54 +284,6 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		5105E9001DFEEBC30020E107 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				51FA32BF1E6C0572006E8CFF /* simplefactory */,
-				51D1187F1E2518F6004C0CB6 /* strategy */,
-				C11EB5561E08C5D800314BBA /* visitor */,
-				C149563F1E00F85B00760ABC /* media */,
-				C14956381E00F84A00760ABC /* reocord */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		51D1187F1E2518F6004C0CB6 /* strategy */ = {
-			isa = PBXGroup;
-			children = (
-				51D118831E25194C004C0CB6 /* CashSuper.h */,
-				51D118841E25194C004C0CB6 /* CashSuper.m */,
-				51D118861E2519C8004C0CB6 /* CashNormal.h */,
-				51D118871E2519C8004C0CB6 /* CashNormal.m */,
-				51D118891E251A0B004C0CB6 /* CashRebate.h */,
-				51D1188A1E251A0B004C0CB6 /* CashRebate.m */,
-				51D1188C1E251A23004C0CB6 /* CashReturn.h */,
-				51D1188D1E251A23004C0CB6 /* CashReturn.m */,
-				51D1188F1E251A3B004C0CB6 /* CashContext.h */,
-				51D118901E251A3B004C0CB6 /* CashContext.m */,
-			);
-			path = strategy;
-			sourceTree = "<group>";
-		};
-		51FA32BF1E6C0572006E8CFF /* simplefactory */ = {
-			isa = PBXGroup;
-			children = (
-				51FA32C01E6C0672006E8CFF /* BaseOperation.h */,
-				51FA32C11E6C0672006E8CFF /* BaseOperation.m */,
-				51FA32C31E6C06F7006E8CFF /* AddOperation.h */,
-				51FA32C41E6C06F7006E8CFF /* AddOperation.m */,
-				51FA32C61E6C0722006E8CFF /* SubOperation.h */,
-				51FA32C71E6C0722006E8CFF /* SubOperation.m */,
-				51FA32C91E6C0743006E8CFF /* MulOperation.h */,
-				51FA32CA1E6C0743006E8CFF /* MulOperation.m */,
-				51FA32CC1E6C0753006E8CFF /* DivOperation.h */,
-				51FA32CD1E6C0753006E8CFF /* DivOperation.m */,
-				51FA32CF1E6C07C4006E8CFF /* OperationFactory.h */,
-				51FA32D01E6C07C4006E8CFF /* OperationFactory.m */,
-			);
-			path = simplefactory;
-			sourceTree = "<group>";
-		};
 		A94B3FEA0C58DEA37F9CC4EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -349,7 +294,79 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C11EB5561E08C5D800314BBA /* visitor */ = {
+		C192FF72206E6EE600E0554A /* template */ = {
+			isa = PBXGroup;
+			children = (
+				C1E4EEE51DFF8BEB004B4E89 /* TempletViewController.h */,
+				C1E4EEE61DFF8BEB004B4E89 /* TempletViewController.m */,
+			);
+			path = template;
+			sourceTree = "<group>";
+		};
+		C192FF73206E6F0E00E0554A /* record */ = {
+			isa = PBXGroup;
+			children = (
+				C192FF74206E6F2A00E0554A /* model */,
+				5105E8FD1DFEEB0A0020E107 /* RecordViewController.h */,
+				5105E8FE1DFEEB0A0020E107 /* RecordViewController.m */,
+			);
+			path = record;
+			sourceTree = "<group>";
+		};
+		C192FF74206E6F2A00E0554A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C14956391E00F84A00760ABC /* RecodePool.h */,
+				C149563A1E00F84A00760ABC /* RecodePool.m */,
+				C149563B1E00F84A00760ABC /* RecordItem.h */,
+				C149563C1E00F84A00760ABC /* RecordItem.m */,
+				511132AC1E2677960084E6E4 /* memenTo.h */,
+				511132AD1E2677960084E6E4 /* memenTo.m */,
+				511132A91E2677050084E6E4 /* gamePlayer.h */,
+				511132AA1E2677050084E6E4 /* gamePlayer.m */,
+				511132B21E2679FD0084E6E4 /* process.h */,
+				511132B31E2679FD0084E6E4 /* process.m */,
+				511132B01E26790E0084E6E4 /* memenToCreateTaker.m */,
+				511132AF1E26790E0084E6E4 /* memenToCreateTaker.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C192FF75206E6F6400E0554A /* media */ = {
+			isa = PBXGroup;
+			children = (
+				C192FF76206E6F7B00E0554A /* model */,
+				C1CA072A1E016F5400C2627F /* MediaViewController.h */,
+				C1CA072B1E016F5400C2627F /* MediaViewController.m */,
+			);
+			path = media;
+			sourceTree = "<group>";
+		};
+		C192FF76206E6F7B00E0554A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C14956401E00F87B00760ABC /* TextViewWraper.h */,
+				C14956411E00F87B00760ABC /* TextViewWraper.m */,
+				C14956431E00F89400760ABC /* LabelWrapper.h */,
+				C14956441E00F89400760ABC /* LabelWrapper.m */,
+				C14956461E00F8E700760ABC /* MediaCollegeProtocol.h */,
+				C14956471E01175800760ABC /* MediaCenter.h */,
+				C14956481E01175800760ABC /* MediaCenter.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C192FF77206E6F9800E0554A /* visitor */ = {
+			isa = PBXGroup;
+			children = (
+				C192FF78206E6FA900E0554A /* model */,
+				C11EB56C1E08C8B900314BBA /* VisitorViewController.h */,
+				C11EB56D1E08C8B900314BBA /* VisitorViewController.m */,
+			);
+			path = visitor;
+			sourceTree = "<group>";
+		};
+		C192FF78206E6FA900E0554A /* model */ = {
 			isa = PBXGroup;
 			children = (
 				C11EB5571E08C61D00314BBA /* ElementPoolArray.h */,
@@ -367,40 +384,63 @@
 				C11EB5691E08C89800314BBA /* VisitorB.h */,
 				C11EB56A1E08C89800314BBA /* VisitorB.m */,
 			);
-			path = visitor;
+			path = model;
 			sourceTree = "<group>";
 		};
-		C14956381E00F84A00760ABC /* reocord */ = {
+		C192FF79206E6FC000E0554A /* strategy */ = {
 			isa = PBXGroup;
 			children = (
-				C14956391E00F84A00760ABC /* RecodePool.h */,
-				C149563A1E00F84A00760ABC /* RecodePool.m */,
-				C149563B1E00F84A00760ABC /* RecordItem.h */,
-				C149563C1E00F84A00760ABC /* RecordItem.m */,
-				511132AC1E2677960084E6E4 /* memenTo.h */,
-				511132AD1E2677960084E6E4 /* memenTo.m */,
-				511132A91E2677050084E6E4 /* gamePlayer.h */,
-				511132AA1E2677050084E6E4 /* gamePlayer.m */,
-				511132B21E2679FD0084E6E4 /* process.h */,
-				511132B31E2679FD0084E6E4 /* process.m */,
-				511132B01E26790E0084E6E4 /* memenToCreateTaker.m */,
-				511132AF1E26790E0084E6E4 /* memenToCreateTaker.h */,
+				C192FF7A206E6FDA00E0554A /* model */,
+				51D118951E2521F2004C0CB6 /* StrategyViewController.h */,
+				51D118961E2521F2004C0CB6 /* StrategyViewController.m */,
 			);
-			path = reocord;
+			path = strategy;
 			sourceTree = "<group>";
 		};
-		C149563F1E00F85B00760ABC /* media */ = {
+		C192FF7A206E6FDA00E0554A /* model */ = {
 			isa = PBXGroup;
 			children = (
-				C14956401E00F87B00760ABC /* TextViewWraper.h */,
-				C14956411E00F87B00760ABC /* TextViewWraper.m */,
-				C14956431E00F89400760ABC /* LabelWrapper.h */,
-				C14956441E00F89400760ABC /* LabelWrapper.m */,
-				C14956461E00F8E700760ABC /* MediaCollegeProtocol.h */,
-				C14956471E01175800760ABC /* MediaCenter.h */,
-				C14956481E01175800760ABC /* MediaCenter.m */,
+				51D118831E25194C004C0CB6 /* CashSuper.h */,
+				51D118841E25194C004C0CB6 /* CashSuper.m */,
+				51D118861E2519C8004C0CB6 /* CashNormal.h */,
+				51D118871E2519C8004C0CB6 /* CashNormal.m */,
+				51D118891E251A0B004C0CB6 /* CashRebate.h */,
+				51D1188A1E251A0B004C0CB6 /* CashRebate.m */,
+				51D1188C1E251A23004C0CB6 /* CashReturn.h */,
+				51D1188D1E251A23004C0CB6 /* CashReturn.m */,
+				51D1188F1E251A3B004C0CB6 /* CashContext.h */,
+				51D118901E251A3B004C0CB6 /* CashContext.m */,
 			);
-			path = media;
+			path = model;
+			sourceTree = "<group>";
+		};
+		C192FF7B206E6FEE00E0554A /* simpleFactory */ = {
+			isa = PBXGroup;
+			children = (
+				C192FF7C206E6FFD00E0554A /* model */,
+				51FA32D21E6C09D3006E8CFF /* SimpleFactoryViewController.h */,
+				51FA32D31E6C09D3006E8CFF /* SimpleFactoryViewController.m */,
+			);
+			path = simpleFactory;
+			sourceTree = "<group>";
+		};
+		C192FF7C206E6FFD00E0554A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				51FA32C01E6C0672006E8CFF /* BaseOperation.h */,
+				51FA32C11E6C0672006E8CFF /* BaseOperation.m */,
+				51FA32C31E6C06F7006E8CFF /* AddOperation.h */,
+				51FA32C41E6C06F7006E8CFF /* AddOperation.m */,
+				51FA32C61E6C0722006E8CFF /* SubOperation.h */,
+				51FA32C71E6C0722006E8CFF /* SubOperation.m */,
+				51FA32C91E6C0743006E8CFF /* MulOperation.h */,
+				51FA32CA1E6C0743006E8CFF /* MulOperation.m */,
+				51FA32CC1E6C0753006E8CFF /* DivOperation.h */,
+				51FA32CD1E6C0753006E8CFF /* DivOperation.m */,
+				51FA32CF1E6C07C4006E8CFF /* OperationFactory.h */,
+				51FA32D01E6C07C4006E8CFF /* OperationFactory.m */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		F99EE186A36EFCB2C0F5FA74 /* Pods */ = {
